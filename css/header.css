@@ -1,0 +1,139 @@
+
+/* ************ HEADER ************ */
+
+/* Nav__Logo */
+
+.info__logo{
+    display: inline-flex;  /*Para que el div tenga justamente el tamaño del contenido*/
+    gap: 5px;
+    align-items: center;
+}
+.info__logo-name{
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--color__a-h1-h2-p);
+}
+
+/* Nav__ul */
+
+.nav__ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+.nav__a{
+    position: relative;
+    font-size: 14px;
+    font-weight: var(--weight-a);
+}
+.nav__a::after{
+    content: "";
+    position: absolute;
+    top: 23px;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: var(--check-color);
+    transform: translateY(10px);
+    transition: all 300ms ease;
+    opacity: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+}
+.nav__a:hover:after{
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+/* Nav__Login */
+
+.login__ul{
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.login__li,.login__a,.menu__resp-menu,.menu__resp-close,.menu__resp-a{
+    display: flex;
+    align-self: center; 
+}
+
+/* Nav__Responsive */
+
+.menu__resp{
+    position: relative;
+    list-style: none;
+    display: none;
+}
+.menu__resp-close{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* ************ RESPONSIVE ************ */
+
+@media(max-width:480px){
+
+    /* Header__Nav */
+    
+    .nav__3{
+        order: -1;
+    }
+    .nav__2{
+        order: 1;
+    }
+
+    /* Nav__Logo */
+
+    .info__logo{
+        order: 0;
+        margin: 0 auto;
+    }
+    .info__logo-img{
+        width: 30px;
+        height: 30px;
+    }
+    .info__logo-name{
+        font-size: 12px;
+        font-weight: var(--weight-a-p);
+    }
+    
+    /* Nav__ul */
+    
+    .nav__ul{
+        display: none;
+    }
+    .login__img-shop{
+        color: var(--check-color);
+    }
+
+    /* Nav__Responsive */
+
+    .menu__resp{
+        display: block;
+    }
+    .menu__resp-close{
+        opacity: 0;
+    }
+
+}
