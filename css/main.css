@@ -35,10 +35,10 @@ body{
 html{
     scroll-behavior: smooth;
 }
-/* section[id = gallery]{
-    scroll-margin-top: -50px;
+section[id = services]{
+    scroll-margin-top: -120px;
 }
-section[id = about]{
+/*section[id = about]{
     scroll-margin-top: -30px;
 }
 section[id = contact]{
@@ -83,7 +83,7 @@ a{
 
 .section__services{
     width: 100%;
-    padding: 100px 0;
+    padding: 150px 0;
     display: grid;
     grid-template-rows: repeat(auto-fit, minmax(250px, max-content));
 }
@@ -133,17 +133,17 @@ a{
 
 .animation__service{
   position: relative;
-  transform: translateY(300px) ;
+  transform: translateY(200px) ;
   opacity: 0;
-  transition: all 2s ease;
-  -webkit-transform: translateY(300px) ;
-  -moz-transform: translateY(300px) ;
-  -ms-transform: translateY(300px) ;
-  -o-transform: translateY(300px) ;
-  -webkit-transition: all 2s ease;
-  -moz-transition: all 2s ease;
-  -ms-transition: all 2s ease;
-  -o-transition: all 2s ease;
+  transition: all 1s ease;
+  -webkit-transform: translateY(200px) ;
+  -moz-transform: translateY(200px) ;
+  -ms-transform: translateY(200px) ;
+  -o-transform: translateY(200px) ;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
 }
 .animation__service.active{
   transform: translateY(0px) ;
