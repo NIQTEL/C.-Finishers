@@ -1,39 +1,22 @@
 
-/* ************ Animation Forms ************ */
+/* ************ Scroll Animation ************ */
 
-const Container__form = document.querySelector(".container__form-login");
-const login = document.querySelector(".login__link");
-const register = document.querySelector(".register__link");
+window.addEventListener('scroll', animation__services);
 
-register.addEventListener('click', () =>{
-    Container__form.classList.add('active');
-});
+function animation__services(){
+  var animation__services1 = document.querySelectorAll('.animation__service');
 
-login.addEventListener('click', () =>{
-    Container__form.classList.remove('active');
-});
+  for (var i = 0; i < animation__services1.length; i++) {
 
-/* ************ Swiper ************ */
+    var windowheight = window.innerHeight;
+    var animation__servicestop = animation__services1[i].getBoundingClientRect().top;
+    var animation__servicespoint = 150;
 
-
-  const swiper = new Swiper('.about__us-container', {
-    // Optional parameters
-    loop: true,
-    grabCursor: true,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-  });
+    if(animation__servicestop < windowheight - animation__servicespoint){
+      animation__services1[i].classList.add('active'); 
+    }
+    else{
+      animation__services1[i].classList.remove('active'); 
+    }
+  }
+}
