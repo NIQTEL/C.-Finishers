@@ -2,20 +2,18 @@
 /* ***************** FOOTER ***************** */
 
 .footer__container{
-    /* background: rebeccapurple; */
     width: 100%;
     margin: 0 auto;
     padding: 60px 0;
     display: grid;
     gap: 2em;
-    place-content: start;
+    place-content: center;
     place-items: start;
     grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
 }
 .footer__ul{
     list-style: none;
     padding: 20px;
-    /* background-color: red; */
 }
 .footer__h4{
     position: relative;
@@ -58,7 +56,7 @@
   display: inline-flex;
   gap: 5px;
   align-items: center;
-  padding: 20px;
+  padding: 30px 20px;
 }
 .footer__logo-name{
   font-size: 18px;

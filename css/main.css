@@ -11,7 +11,7 @@
     --hover__images:#17171883;
     --check-color: #0a03a0;
     /* --check-color: #e82d03; */
-    --check: linear-gradient(90deg, #1c1c1d 100%, #f7f5f500 );
+    --check: linear-gradient(90deg, #1c1c1d 100%, #0a0909fc );
     --size__h2: 3rem;
     --size__h1: 4rem;
     --size__p: 1.2em;
