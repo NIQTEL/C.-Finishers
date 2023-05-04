@@ -4,12 +4,14 @@
 :root{
     --black: #0b0a0a;
     --color__a-h1-h2-p: rgb(215, 214, 214);
-    --background-body: linear-gradient(90deg, #0b0818 100%, #f7f5f500 );
+    /* --background-body: linear-gradient(90deg, #0b0818 100%, #f7f5f500 );
+     */
+     --background-body: linear-gradient(90deg, #101010 , #161616 100%);
     --color__nav:#222222de;
     --hover__images:#17171883;
-    --check-color: #0a04aed0;
+    --check-color: #0e06e0e7;
     /* --check-color: #e82d03; */
-    --check: linear-gradient(90deg, #1c1a23cb 100%, #f7f5f500 );
+    --check: linear-gradient(90deg, #1c1a23ed 100%, #f7f5f500 );
     --size__h2: 3rem;
     --size__h1: 4rem;
     --size__p: 1.2em;
@@ -137,7 +139,7 @@ a{
 
     .container__nav{
         padding: 10px 5%;
-        background: var(--black);
+        /* background: var(--black); */
     }
     .contact{
         padding: 50px 0;
