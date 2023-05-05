@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/about us.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script defer src="./js/app.js"></script>
     <title>Cayman Finishers</title>
 </head>
@@ -212,45 +214,47 @@
             <p class="about__us-p">Team Word</p>
         </div>
 
-        <div class="about__us-container">
-            <img src="./svg/left-arrow.svg" alt="" class="about__us-img-arrow" id="before">
-
-            <section class="about__us-info about__us-info-show" data-id="1">
-                <figure>
-                    <img src="./images/computer-scientist.jpg" alt="" class="about__img">
-                </figure>
-                
-                <div class="about__rol">
-                    <p class="about__p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, esse similique consequuntur harum labore incidunt odit odio neque corporis quod.</p>
-                    <span class="name">Alfredo Ernesto Reytor Batista</span>
-                    <span class="rol">Web Developer</span>
-                </div>
-            </section>
-
-            <section class="about__us-info" data-id="2">
-                <figure>
-                    <img src="./images/computer-scientist.jpg" alt="" class="about__img">
-                </figure>
-                
-                <div class="about__rol">
-                    <p class="about__p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, esse similique consequuntur harum labore incidunt odit odio neque corporis quod.</p>
-                    <span class="name">Alfredo Ernesto Reytor Batista</span>
-                    <span class="rol">Web Developer</span>
-                </div>
-            </section>
+        <!-- Slider main container -->
+        <div class="swiper about__us-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <figure>
+                <img src="./images/computer-scientist.jpg" alt="" class="about__img">
+            </figure>
             
-            <section class="about__us-info" data-id="3">
-                <figure>
-                    <img src="./images/computer-scientist.jpg" alt="" class="about__img">
-                </figure>
-                
-                <div class="about__rol">
-                    <p class="about__p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, esse similique consequuntur harum labore incidunt odit odio neque corporis quod.</p>
-                    <span class="name">Alfredo Ernesto Reytor Batista</span>
-                    <span class="rol">Web Developer</span>
-                </div>
-            </section>
-            <img src="./svg/right-arrow.svg" alt="" class="about__us-img-arrow" id="after">
+            <div class="about__rol">
+                <p class="about__p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, esse similique consequuntur harum labore incidunt odit odio neque corporis quod.</p>
+                <span class="name">Alfredo Ernesto Reytor Batista</span>
+                <span class="rol">Web Developer</span>
+            </div>
+
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="./images/computer-scientist.jpg" alt="" class="about__img">
+            </figure>
+            
+            <div class="about__rol">
+                <p class="about__p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, esse similique consequuntur harum labore incidunt odit odio neque corporis quod.</p>
+                <span class="name">Alfredo Ernesto Reytor Batista</span>
+                <span class="rol">Web Developer</span>
+            </div>
+
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="./images/computer-scientist.jpg" alt="" class="about__img">
+            </figure>
+            
+            <div class="about__rol">
+                <p class="about__p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, esse similique consequuntur harum labore incidunt odit odio neque corporis quod.</p>
+                <span class="name">Alfredo Ernesto Reytor Batista</span>
+                <span class="rol">Web Developer</span>
+            </div>
+            </div>
+          </div>
         </div>
     </section>
 

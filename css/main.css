@@ -96,7 +96,12 @@ a{
     background-position: 0 0,9px 9px;
 }
 
-/* ***************** SECTION-GALLERY ***************** */
+/* ***************** SECTION-SWIPER ***************** */
+
+.about__us-container{
+  width: 100%;
+  /* height: 300px; */
+}
 
 .about__us{
     width: 100%;
