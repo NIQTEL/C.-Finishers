@@ -119,12 +119,12 @@ a{
 /* ***************** FOOTER ***************** */
 
 .footer{
-    /* background: yellow; */
     width: 100%;
     margin: 0 auto;
     padding: 40px 40px;
     display: grid;
-    place-self: start;
+    gap: 20px;
+    place-self: center;
     grid-template-rows: max-content 50px;
 }
 

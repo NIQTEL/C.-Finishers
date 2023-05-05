@@ -52,14 +52,24 @@
   padding-left: 5px;
   font-weight: 500;
 }
+.container__footer-logo{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 .footer__img-logo{
   display: inline-flex;
   gap: 5px;
   align-items: center;
-  padding: 30px 20px;
+  padding: 30px 0;
 }
 .footer__logo-name{
   font-size: 18px;
   font-weight: 800;
+  color: var(--color__a-h1-h2-p);
+}
+.footer__p{
+  font-size: 15px;
+  font-weight: 500;
   color: var(--color__a-h1-h2-p);
 }
