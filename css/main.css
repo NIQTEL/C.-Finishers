@@ -4,14 +4,11 @@
 :root{
     --black: #0b0a0a;
     --color__a-h1-h2-p: rgb(215, 214, 214);
-    /* --background-body: linear-gradient(90deg, #0b0818 100%, #f7f5f500 );
-     */
      --background-body: linear-gradient(90deg, #101010 , #161616 100%);
     --color__nav:#222222de;
     --hover__images:#17171883;
     --check-color: #0a03a0;
-    /* --check-color: #e82d03; */
-    --check: linear-gradient(90deg, #1c1c1d 100%, #0a0909fc );
+    --check: linear-gradient(90deg, #2b2b2c 100%, #0a0909fc );
     --size__h2: 3rem;
     --size__h1: 4rem;
     --size__p: 1.2em;
@@ -38,10 +35,10 @@ html{
 section[id = services]{
     scroll-margin-top: -120px;
 }
-/*section[id = about]{
-    scroll-margin-top: -30px;
+section[id = about]{
+    scroll-margin-top: -220px;
 }
-section[id = contact]{
+/*section[id = contact]{
     scroll-margin-top: -50px;
 } */
 a{
