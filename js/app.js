@@ -27,6 +27,7 @@ const swiper = new Swiper('.about__us-container', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
-  autoplay: true,
-
+  autoplay: {
+    delay: 2000,
+  },
 });
