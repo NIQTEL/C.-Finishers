@@ -4,7 +4,7 @@
 :root{
     --black: #0b0a0a;
     --color__a-h1-h2-p: rgb(215, 214, 214);
-     --background-body: linear-gradient(90deg, #101010 , #161616 100%);
+    --background-body: linear-gradient(90deg, #101010 , #161616 100%);
     --color__nav:#222222de;
     --hover__images:#17171883;
     --check-color: #0a03a0;
@@ -100,7 +100,6 @@ a{
 
 .about__us-container{
   width: 100%;
-  /* height: 300px; */
 }
 
 .about__us{
